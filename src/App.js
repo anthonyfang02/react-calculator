@@ -42,7 +42,7 @@ function App() {
       <h1>Simple Calculator</h1>
       <h2>{amount}</h2>
       <input
-        type='text'
+        type='number'
         value={inputValue}
         onChange={handleInputChange}
         placeholder='Enter a number'
